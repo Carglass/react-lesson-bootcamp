@@ -1,0 +1,27 @@
+{
+  "name": "react-lesson-bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node scripts/seedDB.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carglass/react-lesson-bootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carglass/react-lesson-bootcamp/issues"
+  },
+  "homepage": "https://github.com/Carglass/react-lesson-bootcamp#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.7"
+  }
+}
